@@ -1,0 +1,158 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* LEFT SIDE */
+.container-1 {
+  flex: 1;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* IMAGE */
+.container-1 img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+}
+
+/* RIGHT SIDE */
+.container-2 {
+  flex: 1;
+  background-color: rgb(119, 144, 167);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FORM BOX */
+.box-1 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* TITLE SECTION */
+.heading-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* FORM */
+.mailcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* INPUT CONTAINERS */
+.email-box,
+.password-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* INPUTS */
+.email-box input,
+.password-box input {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 10px;
+}
+
+/* FORGOT PASSWORD */
+.password-recovery {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.password-recovery a {
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+}
+
+/* LOGIN BUTTON */
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box button {
+  width: 100%;
+  height: 45px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.login-box button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+/* REGISTER TEXT */
+.register-text {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.register-text a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .container-1,
+  .container-2 {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .box-1 {
+    width: 90%;
+  }
+}
