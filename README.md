@@ -1,7 +1,7 @@
 # Task-6
 html file: https://github.com/Yuvresh-Gavale/Task-6/blob/main/index.html
 <br>
-css file:
+css file: https://github.com/Yuvresh-Gavale/Task-6/blob/main/index.css
 # Clone the repo
 git clone 
 # Go into the project folder
