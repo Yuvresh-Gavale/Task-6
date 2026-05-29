@@ -1,5 +1,5 @@
 # Task-6
-html file: 
+html file: https://github.com/Yuvresh-Gavale/Task-6/blob/main/index.html
 <br>
 css file:
 # Clone the repo
